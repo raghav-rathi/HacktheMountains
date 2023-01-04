@@ -247,6 +247,8 @@ def predict_disease(image_path):
     plt.imshow(plt.imread(image_path))
     result = model.predict_classes(np_image)
     print((image_labels.classes_[result][0]))
+    
+    #opti\
 
 
 # In[35]:
